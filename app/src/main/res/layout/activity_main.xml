@@ -3,7 +3,1002 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@ccolor/black">
+    android:background="@color/black">
+
+    <!--    ROW 1 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_1_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_1_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_1_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--    ROW 1 BUTTONS END-->
+
+    <!--    ROW 2 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_2_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_1_h" />
+    <!--    ROW 2 BUTTONS END-->
+
+    <!--    Rows 3, 4 and 5 have no buttons-->
+
+    <!--    ROW 6 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_6_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_5_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_6_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_5_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_6_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_5_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_6_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_5_h" />
+    <!--    ROW 6 BUTTONS END-->
+
+    <!--    ROW 7 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_7_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_6_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_7_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_6_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_7_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_6_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_7_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_6_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_7_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_6_h" />
+
+    <!--    ROW 7 BUTTONS END-->
+
+    <!--    ROW 8 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_8_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_7_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_8_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_7_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_8_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_7_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_8_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_7_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_8_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_7_h" />
+    <!--    ROW 8 BUTTONS END-->
+
+    <!--    ROW 9 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_9_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_8_h" />
+    <!--    ROW 9 BUTTONS END-->
+
+    <!--    ROW 10 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_10_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_9_h" />
+
+
+    <!--    ROW 10 BUTTONS END-->
+
+    <!--    ROW 11 BUTTONS START-->
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_11_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_10_h" />
+
+    <!--    ROW 11 BUTTONS END-->
+
+    <!--    ROW 12 BUTTONS START-->
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_12_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_11_h" />
+
+    <!--    ROW 12 BUTTONS END-->
+
+    <!--    ROW 13 BUTTONS START-->
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_13_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_12_h" />
+
+    <!--    ROW 13 BUTTONS END-->
+
+    <!--    ROW 14 BUTTONS START-->
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_14_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_13_h" />
+
+    <!--    ROW 14 BUTTONS END-->
+
+    <!--    ROW 15 BUTTONS START-->
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_15_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_14_h" />
+
+    <!--    ROW 15 BUTTONS END-->
+
+    <!--    ROW 16 BUTTONS START-->
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_16_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_15_h" />
+    <!--    ROW 16 BUTTONS END-->
+
+    <!--    ROW 17 BUTTONS START-->
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/orange"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toTopOf="@id/gl_17_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/gl_9_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_16_h" />
+    <!--    ROW 17 BUTTONS END-->
+
+    <!--    ROW 18 BUTTONS START-->
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_1_v"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_2_v"
+        app:layout_constraintStart_toEndOf="@id/gl_1_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/purple"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_3_v"
+        app:layout_constraintStart_toEndOf="@id/gl_2_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_4_v"
+        app:layout_constraintStart_toEndOf="@id/gl_3_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_5_v"
+        app:layout_constraintStart_toEndOf="@id/gl_4_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_6_v"
+        app:layout_constraintStart_toEndOf="@id/gl_5_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_7_v"
+        app:layout_constraintStart_toEndOf="@id/gl_6_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_8_v"
+        app:layout_constraintStart_toEndOf="@id/gl_7_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/gl_18_h"
+        app:layout_constraintEnd_toStartOf="@id/gl_9_v"
+        app:layout_constraintStart_toEndOf="@id/gl_8_v"
+        app:layout_constraintTop_toBottomOf="@id/gl_17_h" />
+
+    <!--    ROW 18 BUTTONS END-->
 
 
     <!-- VERTICAL GUIDELINES START -->
